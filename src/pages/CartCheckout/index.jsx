@@ -110,7 +110,7 @@ const CartAndCheckout = () => {
       currency: data.currency,
       name: "LearnxTech",
       description: "Course Payment",
-      image: "http://localhost:5173/src/assets/Home/logo.png",
+      image: "/images/Home/logo.png",
       order_id: data.id,
       handler: async function (response) {
         const d = await verifyOrder(response);
@@ -290,7 +290,7 @@ const CartAndCheckout = () => {
                           name: "LearnxTech",
                           description: "Course Payment",
                           image:
-                            "http://localhost:5173/src/assets/Home/logo.png",
+                            "/images/Home/logo.png",
                           price: ((amount + 100) / DOLLAR_RATE).toFixed(2),
                         }}
                       />

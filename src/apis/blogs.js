@@ -8,8 +8,8 @@ const mockBlogs = [
     content: "Learn the basics of web development including HTML, CSS, and JavaScript...",
     author: "John Doe",
     date: "2024-03-15",
-    image: "/src/assets/Home/CourseCard.png",
-    imageUrl: "/src/assets/Home/CourseCard.png",
+    image: "/images/Home/CourseCard.png",
+    imageUrl: "/images/Home/CourseCard.png",
     viewCount: 120,
     comments: [
       { id: 1, text: "Great article!", author: "Alice" },
@@ -23,8 +23,8 @@ const mockBlogs = [
     content: "Explore advanced React patterns and best practices for building scalable applications...",
     author: "Jane Smith",
     date: "2024-03-14",
-    image: "/src/assets/Home/CourseCard.png",
-    imageUrl: "/src/assets/Home/CourseCard.png",
+    image: "/images/Home/CourseCard.png",
+    imageUrl: "/images/Home/CourseCard.png",
     viewCount: 85,
     comments: [
       { id: 1, text: "Excellent explanation!", author: "Charlie" }
@@ -37,8 +37,8 @@ const mockBlogs = [
     content: "A comprehensive guide to TypeScript and its features...",
     author: "Mike Johnson",
     date: "2024-03-13",
-    image: "/src/assets/Home/CourseCard.png",
-    imageUrl: "/src/assets/Home/CourseCard.png",
+    image: "/images/Home/CourseCard.png",
+    imageUrl: "/images/Home/CourseCard.png",
     viewCount: 95,
     comments: [
       { id: 1, text: "Very informative!", author: "David" },

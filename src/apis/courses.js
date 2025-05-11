@@ -20,7 +20,7 @@ const mockCourses = [
       amt: 99.99,
       symbol: "$"
     },
-    image: "/src/assets/Home/CourseCard.png",
+    image: "/images/Home/CourseCard.png",
     category: "Web Development",
     overall_rating: 4.5,
     reviews: 120
@@ -34,7 +34,7 @@ const mockCourses = [
       amt: 79.99,
       symbol: "$"
     },
-    image: "/src/assets/Home/CourseCard.png",
+    image: "/images/Home/CourseCard.png",
     category: "Frontend Development",
     overall_rating: 4.8,
     reviews: 85
@@ -48,7 +48,7 @@ const mockCourses = [
       amt: 89.99,
       symbol: "$"
     },
-    image: "/src/assets/Home/CourseCard.png",
+    image: "/images/Home/CourseCard.png",
     category: "Backend Development",
     overall_rating: 4.6,
     reviews: 95
