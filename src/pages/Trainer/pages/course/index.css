@@ -1,0 +1,13 @@
+.star {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.on {
+  color: #f4d01b;
+}
+.off {
+  color: #ccc;
+}

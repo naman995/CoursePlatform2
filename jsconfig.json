@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "jsx": "preserve",
+        "baseUrl": "./src",
+        "paths": {
+            "components/*": [
+                "./components/*"
+            ],
+            "pages/*": [
+                "./pages/*"
+            ],
+            "routes/*": [
+                "./routes/*"
+            ],
+            "hooks/*": [
+                "./hooks/*"
+            ],
+            "layout/*": [
+                "./layout/*"
+            ],
+            "controller/*": [
+                "./controller/*"
+            ],
+            "apis/*": [
+                "./apis/*"
+            ],
+            "functions/*": [
+                "./functions/*"
+            ],
+            "hoc/*": [
+                "./hoc/*"
+            ],
+            "context/*": [
+                "./context/*"
+            ],
+            "constants/*": [
+                "./constants/*"
+            ],
+        },
+    },
+}
