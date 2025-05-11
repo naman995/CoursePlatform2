@@ -11,7 +11,7 @@ const LiveCourseCard = () => {
           <div className="flex gap-3 mb-2">
             <img
               className="w-[157px] h-[170px] rounded-2xl object-cover"
-              src="https:picsum.photos/200/300"
+              src="/Course.jpg"
               alt="cardImage"
             />
             <div className="flex flex-col justify-start">

@@ -25,7 +25,7 @@ const BlogCard = () => {
                   <div>
                     <img
                       className="w-[500px] h-[300px]"
-                      src={item.imageUrl}
+                      src={item.imageUrl || "/course.jpg"}
                       alt=""
                     />
                   </div>

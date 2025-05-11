@@ -95,7 +95,7 @@ const CourseDetails = () => {
             <div className="flex flex-col lg:flex-row items-center space-x-2 lg:space-x-6">
               <img
                 className="lg:block h-[200px] lg:h-[350px] lg:w-[350px] aspect-video rounded-2xl object-contain"
-                src={course.image}
+                src={course.image || "/Course.jpg"}
                 alt="headerImage"
               />
               <div className="w-full">

@@ -42,7 +42,7 @@ const EnrollNowCard = ({
           <div className="flex flex-col lg:flex-row gap-3 mb-2">
             <img
               className="h-[150px]  lg:w-[157px] lg:h-[170px] rounded-2xl object-cover"
-              src={image}
+              src={image || "/Course.jpg"}
               alt="cardImage"
             />
             <div className="flex flex-col justify-start">

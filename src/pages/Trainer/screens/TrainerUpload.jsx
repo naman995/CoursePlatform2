@@ -12,7 +12,7 @@ function TrainerUpload() {
   const [course, setCourse] = React.useState({
     title: "",
     image:
-      "https://www.grouphealth.ca/wp-content/uploads/2018/05/placeholder-image.png",
+      "/Course.jpg",
     description: {
       short: "",
       long: "",

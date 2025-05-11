@@ -15,7 +15,7 @@ const CourseCard = ({ courses, style }) => {
             <div className="px-2 pt-2 rounded-xl">
               <img
                 className="h-[150px] w-full lg:w-[250px] rounded-xl "
-                src={course.image}
+                src={course.image || "/course.jpg"}
                 alt=""
               />
             </div>

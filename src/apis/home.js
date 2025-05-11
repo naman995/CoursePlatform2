@@ -7,7 +7,7 @@ const userLocation = JSON.parse(localStorage.getItem("user-location"))?.country_
 
 export async function getHome() {
     // Mock data for courses
-    const defaultImage = "/images/CourseCard.png";
+    const defaultImage = "/course.jpg";
     return {
         trendingCourses: [
             { _id: '1', title: 'Mock Trending Course 1', price: { amt: 100, base: 'USD', symbol: '$' }, image: defaultImage, category: 'programming', overall_rating: 4, reviews: [{}, {}, {}] },

@@ -110,9 +110,24 @@ const router = createBrowserRouter(
 );
 
 const getUsersLocation = async () => {
-  const response = await fetch("https://ipapi.co/json/");
-  const data = await response.json();
-  return data;
+  try {
+    const response = await fetch("https://api.ipify.org?format=json");
+    const data = await response.json();
+    return {
+      ip: data.ip,
+      // Default to USD if we can't get the country
+      currency: "USD",
+      country: "US"
+    };
+  } catch (error) {
+    console.error("Error fetching location:", error);
+    // Return default values if the API call fails
+    return {
+      ip: "",
+      currency: "USD",
+      country: "US"
+    };
+  }
 };
 
 function App() {

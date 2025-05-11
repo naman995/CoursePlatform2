@@ -36,7 +36,7 @@ const Blogdetails = () => {
           {description.heading}
         </p>
         <BlogProfile />
-        <img className="w-auto mx-auto" src={BlogImg} alt="BlogImages" />
+        <img className="w-auto mx-auto" src={BlogImg || "/course.jpg"} alt="BlogImages" />
         <p className="text-[22px] lg:text-[38px] font-[600] mt-5 lg:mt-20">
           {description.subHeading}
         </p>
