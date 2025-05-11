@@ -12,6 +12,7 @@ import OurServices from "./component/OurServices";
 import Footer from "@/components/Footer";
 import ProfessionalAccreditations from "./component/ProfessionalAccreditations";
 import JoinAsTutor from "./component/JoinAsTutor";
+import WhyChooseUs from "./component/WhyChooseUs";
 
 import { getHome } from "@/apis/home";
 
@@ -31,6 +32,7 @@ function HomePage() {
         <NavBar />
         <HeroSection />
         <Discount />
+        <WhyChooseUs />
         <TrendingCoursePraticeSet
           courses={courses.trendingCourses}
           title="Trending Courses"
